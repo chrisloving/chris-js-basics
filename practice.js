@@ -6,6 +6,14 @@ var name = 'Tyler';
 //If the argument you passed in is equal to 'Tyler', return true. If it's not, return false.
 
   //Code Here
+var name = “chris”
+
+if (name === “chris”) {
+  console.log(“true”);
+}
+else {
+  console.log(“not true”);
+}
 
 
 //Next problem
@@ -17,6 +25,7 @@ var name = 'Tyler';
 
   //Code Here
 
+var getName = prompt("What's your name?", "Chris");
 
 //Next Problem
 
@@ -27,6 +36,8 @@ var name = 'Tyler';
 
   //Code Here
 
+var getName = prompt("What's your name?", "Chris");
+alert ("Welcome " + getName);
 
 //Next problem
 
@@ -37,6 +48,7 @@ var name = 'Tyler';
 
   //Answer Here
 
+the parameters are the aliases of the values that will be passed to the function. The arguments are the actual values
 
 //Next problem
 
@@ -47,7 +59,7 @@ var name = 'Tyler';
 
   //Answer Here
 
-
+false, full, 0, NaN, “”, undefined
 
 //Next Problem
 
@@ -57,9 +69,19 @@ var name = 'Tyler';
 
   //Code Here
 
+function myName() {
+}
+myName();
+
 //Now save the function definition of myName into a new variable called newMyName
 
   //Code Here
+
+function myName() {
+  var newMyName = myName();
+}
+myName();
+
 
 //Now alert the result of invoking newMyName
 
