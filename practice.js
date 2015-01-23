@@ -79,6 +79,7 @@ myName();
 
 function myName() {
   var newMyName = myName();
+  return myName
 }
 myName();
 
@@ -95,8 +96,22 @@ myName();
 
   //Code Here
 
+var foo = function(){
+  
+  return function (){
+    return 5;
+  };
+}
+
+var bar = foo();
+console.log(bar())
+
+
+
 //Now save the result of invoking outerFn into a variable called innerFn.
 
   //Code Here
+
+
 
 //Now invoke innerFn.
